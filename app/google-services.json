@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "260917449107",
+    "firebase_url": "https://branch4u.firebaseio.com",
+    "project_id": "branch4u",
+    "storage_bucket": "branch4u.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260917449107:android:698d29eacd8887c4",
+        "android_client_info": {
+          "package_name": "com.example.nayandeka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260917449107-m7e2lnrmqjap1bb458urco97vjt7tn12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHh4X2xpeyyScg9Rjvs9g-9EORptFqzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

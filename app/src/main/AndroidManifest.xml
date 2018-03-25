@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nayandeka.myfirstapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.nayandeka.myfirstapp.MainActivity">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.myfirstapp.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.example.nayandeka.civil_activity">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.civil_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.Mechanical_Activity">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.Mechanical_Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.Electrical_activity">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.Electrical_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ECE_activity">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ECE_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.cse_activity">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.cse_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.eie_activity">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.eie_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.c_1">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.c_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.c_2">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.c_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.c_3">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.c_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.c_4">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.c_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.c_5">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.c_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.c_6">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.c_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.c_7">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.c_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.c_8">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.c_8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.m_1" />
+
+        <intent-filter>
+            <action android:name="com.example.nayandeka.m_1" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name="com.example.nayandeka.m_2" />
+
+        <intent-filter>
+            <action android:name="com.example.nayandeka.m_2" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name="com.example.nayandeka.m_3" />
+
+        <intent-filter>
+            <action android:name="com.example.nayandeka.m_3" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name="com.example.nayandeka.m_4" />
+
+        <intent-filter>
+            <action android:name="com.example.nayandeka.m_4" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name="com.example.nayandeka.m_5" />
+
+        <intent-filter>
+            <action android:name="com.example.nayandeka.m_5" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name="com.example.nayandeka.m_6" />
+
+        <intent-filter>
+            <action android:name="com.example.nayandeka.m_6" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name="com.example.nayandeka.m_7" />
+
+        <intent-filter>
+            <action android:name="com.example.nayandeka.m_7" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <activity android:name="com.example.nayandeka.m_8">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.m_8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ee_1">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ee_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ee_2">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ee_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ee_3">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ee_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ee_4">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ee_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ee_5">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ee_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ee_6">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ee_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ee_7">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ee_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ee_8">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ee_8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ec_1">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ec_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ec_2">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ec_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ec_3">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ec_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ec_4">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ec_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ec_5">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ec_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ec_6">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ec_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ec_7">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ec_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ec_8">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ec_8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.cs_1">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.cs_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.cs_2">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.cs_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.cs_3">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.cs_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.cs_5">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.cs_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.cs_6">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.cs_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.cs_7">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.cs_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.cs_8">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.cs_8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ei_1">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ei_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ei_2">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ei_2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ei_3">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ei_3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ei_4">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ei_4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ei_5">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ei_5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ei_6">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ei_6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ei_7">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ei_7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.ei_8">
+            <intent-filter>
+                <action android:name="com.example.nayandeka.ei_8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nayandeka.wellcome_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
